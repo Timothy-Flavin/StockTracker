@@ -71,6 +71,8 @@ print("enter mail password")
 pswrd = input()
 print("enter phone number (no '-' or spaces ex:1112223333)")
 phoneNumber = input()
+print("Phone service provider [att,tmobile,verizon,sprint]")
+carrier = input()
 
 PreviousCheck = {}
 
@@ -137,7 +139,7 @@ while(True):
         #input()
         if stockEnteredAcceptedRange:
             print("text me")
-            SMS.send(messageToSend, phoneNumber,usrnm,pswrd)
+            SMS.send(messageToSend, phoneNumber,usrnm,pswrd,carrier)
     except ValueError:
         print(str(ValueError)+ "could not properly decode 'StockData.txt'. Is the file missing or poorly formatted?")
 

@@ -6,9 +6,9 @@ carriers = {
 	'sprint':   '@page.nextel.com'
 }
 
-def send(message, number, usr, pswrd):
+def send(message, number, usr, pswrd, carrier):
         # Replace the number with your own, or consider using an argument\dict for multiple people.
-  to_number = str(number)+carriers['att']
+  to_number = str(number)+carriers[carrier]
   print(to_number)
   auth = (usr, pswrd)
 
