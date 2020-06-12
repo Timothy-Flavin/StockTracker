@@ -14,7 +14,7 @@ because the email you use to send messages may become suspicious and lock this s
 - **you may add companies while the app is running**, it will still work because each time the
 app checks for stocks it re reads the text file with updated information. This app is designed
 to be a run it and forget it application that only texts you when something of interest happens.
-### loging in
+### logging in
 - This app requires use of an email account in order to text your phone via email and your service
 provider. **DO NOT USE YOUR REGULAR EMAIL**, for Gmail this app requires that the less secure login
 options be enabled and it is a bad idea to decrease the security of an email which has sensitive information
