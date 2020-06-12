@@ -5,4 +5,4 @@ Stock IntervalLength/Times <30> (time in minutes between checking stocks or list
 Stock Names and ranges:
 (the format is company name, range, lownum:highNum)
 <Apple><0:250> (65:inf means 65 and above)
-<Nintendo><0:35>
+<Nintendo><0:35> (add more rows with your own companies and data)
