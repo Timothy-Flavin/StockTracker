@@ -1,0 +1,8 @@
+Stock Check Type <Interval> (Interval means every 'x' min from the time the program began running)
+                            (Times means every time the clock reaches 'xx:xx' military time)
+Stock IntervalLength/Times <30> (time in minutes between checking stocks or list of times of day)
+
+Stock Names and ranges:
+(the format is company name, range, lownum:highNum)
+<Apple><0:250> (65:inf means 65 and above)
+<Nintendo><0:35>
